@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+    position: relative;
+    height: 1480px;
+    font-family: Lato;
+    font-style: normal;
+}
+.first_st {
+    background-color: #ED4C5C;
+    width: 100%;
+    height: 500px;
+}
+.fs_heading {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: white;
+    width: 445px;
+    height: 107px;
+    padding-left: 165px;
+    padding-top: 122px;
+    margin-top: 0;
+}
+.fs_text {
+    width: 445px;
+    height: 64px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+    color: #FFFFFF;
+    padding-left: 165px;
+}
+.fs_img {
+    cursor: pointer;
+    display: flex;
+    position: absolute;
+    width: 134px;
+    height: 32px;
+    left: 163px;
+    top: 357px;
+}
+.markets:hover{
+    transform: scale(1.2);
+}
+.AppStore {
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+.videos {
+    position: absolute;
+    left: 691px;
+    top: 94px;
+    width: 445px;
+    height: 311px;
+    border-radius:15px;
+}
+.second_st{
+    width: 100%;
+    height: 545px;
+}
+
+.contacts {
+    position: absolute;
+    left: 176px;
+    top: 617px;
+    width: 434px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: #000000;
+}
+.con_que {
+    position: absolute;
+    width: 434px;
+    height: 64px;
+    left: 176px;
+    top: 713px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+    color: #000000;
+}
+input {
+    outline: none;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 6px;
+    position: absolute;
+    width: 255px;
+    height: 60px;
+    padding-left: 25px;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(19, 39, 67, 0.5);
+
+
+}
+.first_name_input {
+    left: 735px;
+    top: 617px;
+
+}
+.last_name_input {
+    left: 1020px;
+    top: 617px;
+}
+.phone_input {
+    left: 735px;
+    top: 701px;
+    width: 540px;
+    height: 60px;
+}
+.service_opt{
+    position: absolute;
+    width: 540px;
+    height: 60px;
+    left: 735px;
+    top: 785px;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 6px;
+    outline: none;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(19, 39, 67, 0.5);
+    padding: 20px 25px;
+}
+select {
+    appearance: none;
+    background: url(img/arrow.png) no-repeat 95% center;
+}
+.submit_btn {
+    position: absolute;
+    width: 160px;
+    height: 50px;
+    left: 735px;
+    top: 872px;
+    background: #ED4C5C;
+    border: none;
+    border-radius: 6px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.submit_btn:hover {
+    background-color: #b33945;
+}
+.submit_btn:focus {
+    outline: none;
+}
+.third_st {
+    background-color: #FAFAFA;;
+    width: 100%;
+    height: 435px;
+}
+.ts_headers {
+    display: flex;
+    padding-top: 65px;
+    padding-left: 166px;
+    width: 1250px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #101010;
+}
+.ts-head {
+    padding-right: 219px;
+}
+.adress_text {
+    position: absolute;
+    width: 254px;
+    height: 54px;
+    left: 166px;
+    top: 1185px;
+    ont-size: 12px;
+    line-height: 150%;
+    color: #101010;
+}
+.services_menu {
+    position: absolute;
+    width: 254px;
+    height: 114px;
+    left: 442px;
+    top: 1198px;
+    font-size: 12px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #000000;
+}
+li {
+    list-style-type: none;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.touch_menu {
+    position: absolute;
+    width: 122px;
+    height: 90px;
+    left: 728px;
+    top: 1190px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #101010;
+}
+.in {
+    padding-left: 17px;
+    padding-right: 17px;
+}
+.touch_images {
+    padding-top: 10px;
+}
+.support {
+    position: absolute;
+    width: 216px;
+    height: 31px;
+    left: 1045px;
+    top: 1185px;
+}
+.tex_down {
+    position: absolute;
+    width: 155px;
+    height: 14px;
+    left: 161px;
+    top: 1380px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #101010;
+
+}
