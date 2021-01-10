@@ -1,15 +1,13 @@
 body {
-    margin: 0;
-    max-width: 1440px;
+    margin: 0 15px;
     height: 1480px;
     position: relative;
     font-family: Lato;
     font-style: normal;
 }
 .header {
-    margin: 0 auto;
     background-color: #ED4C5C;
-    max-width: 1440px;
+    width: 100%;
     height: 500px;
 }
 .header_heading {
@@ -21,6 +19,7 @@ body {
     height: 107px;
     padding-top: 122px;
     padding-left: 165px;
+    margin-top:0;
 }
 .header_text {
     width: 445px;
@@ -58,7 +57,7 @@ body {
     border-radius:15px;
 }
 .main_info{
-    width: 100%;
+    max-width: 100%;
     height: 545px;
 }
 
@@ -159,7 +158,7 @@ select {
 }
 .footer {
     background-color: #FAFAFA;;
-    width: 100%;
+    max-width: 100%;
     height: 435px;
 }
 .footer_headers {
