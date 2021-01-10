@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cce46c49-a391-4030-89c2-140406dc7ae3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Slider.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/facebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/in.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/ion-logo-apple-appstore.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/ion-logo-google-playstore.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/payment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/simple-icons_windows.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/twitter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +32,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -69,7 +60,9 @@
       <updated>1608669910795</updated>
       <workItem from="1608669912066" duration="358000" />
       <workItem from="1608729543851" duration="7289000" />
-      <workItem from="1608813689109" duration="18215000" />
+      <workItem from="1608813689109" duration="19414000" />
+      <workItem from="1608972751632" duration="35000" />
+      <workItem from="1610276953567" duration="1939000" />
     </task>
     <servers />
   </component>

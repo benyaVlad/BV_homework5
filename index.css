@@ -1,16 +1,17 @@
 body {
-    margin: 0;
+    margin: 0 auto;
     position: relative;
+    max-width: 1440px;
     height: 1480px;
     font-family: Lato;
     font-style: normal;
 }
-.first_st {
+.header {
     background-color: #ED4C5C;
     width: 100%;
     height: 500px;
 }
-.fs_heading {
+.header_heading {
     font-weight: 600;
     font-size: 36px;
     line-height: 43px;
@@ -21,7 +22,7 @@ body {
     padding-top: 122px;
     margin-top: 0;
 }
-.fs_text {
+.header_text {
     width: 445px;
     height: 64px;
     font-weight: normal;
@@ -31,7 +32,7 @@ body {
     color: #FFFFFF;
     padding-left: 165px;
 }
-.fs_img {
+.header_img {
     cursor: pointer;
     display: flex;
     position: absolute;
@@ -43,7 +44,7 @@ body {
 .markets:hover{
     transform: scale(1.2);
 }
-.AppStore {
+.appstore {
     padding-left: 28px;
     padding-right: 28px;
 }
@@ -56,7 +57,7 @@ body {
     height: 311px;
     border-radius:15px;
 }
-.second_st{
+.main_info{
     width: 100%;
     height: 545px;
 }
@@ -156,12 +157,12 @@ select {
 .submit_btn:focus {
     outline: none;
 }
-.third_st {
+.footer {
     background-color: #FAFAFA;;
     width: 100%;
     height: 435px;
 }
-.ts_headers {
+.footer_headers {
     display: flex;
     padding-top: 65px;
     padding-left: 166px;
@@ -172,7 +173,7 @@ select {
     text-align: center;
     color: #101010;
 }
-.ts-head {
+.footer_head {
     padding-right: 219px;
 }
 .adress_text {
