@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cce46c49-a391-4030-89c2-140406dc7ae3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/photo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Slider.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -61,7 +64,11 @@
       <workItem from="1608729543851" duration="7289000" />
       <workItem from="1608813689109" duration="19414000" />
       <workItem from="1608972751632" duration="35000" />
-      <workItem from="1610276953567" duration="5635000" />
+      <workItem from="1610276953567" duration="6626000" />
+      <workItem from="1610283672663" duration="33000" />
+      <workItem from="1610528292420" duration="324000" />
+      <workItem from="1610528874710" duration="309000" />
+      <workItem from="1610535886231" duration="12412000" />
     </task>
     <servers />
   </component>

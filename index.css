@@ -7,39 +7,53 @@ body {
 }
 .header {
     background-color: #ED4C5C;
-    max-width: 1440px;
     height: 500px;
+    width: 100%;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
+.header_container {
+    width: 65%;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+
+}
+.header_context{
+    width: 445px;
+    height: 311px;
+    display: flex;
+    flex-direction: column;
+}
+
 .header_heading {
     font-weight: 600;
     font-size: 36px;
     line-height: 43px;
     color: white;
-    width: 445px;
-    height: 107px;
-    padding-top: 122px;
-    padding-left: 165px;
-    margin-top:0;
+
 }
 .header_text {
-    width: 445px;
-    height: 64px;
+
     font-weight: normal;
     font-size: 14px;
     line-height: 140%;
-    text-align: justify;
     color: #FFFFFF;
-    padding-left: 165px;
+    width: 445px;
+    height: 64px;
+    text-align: justify;
+    padding-bottom: 20px;
+
 }
 .header_img {
     cursor: pointer;
     display: flex;
-    position: absolute;
+    gap: 10px;
     width: 134px;
     height: 32px;
-    padding-left: 163px;
-    top: 357px;
 }
 .markets:hover{
     transform: scale(1.2);
@@ -50,77 +64,73 @@ body {
 }
 
 .videos {
-    position: absolute;
-    left: 691px;
-    top: 94px;
     width: 445px;
     height: 311px;
     border-radius:15px;
 }
+.videos img {
+    background-color: transparent;
+}
+
 .main_info{
     max-width: 100%;
     height: 545px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.main_container{
+    width: 65%;
+    height: 305px;
+    display: flex;
+    gap: 125px;
 
+}
+.main_container_contacts {
+    width: 445px;
+    height: 160px;
+}
 .contacts {
-    position: absolute;
-    left: 176px;
-    top: 617px;
-    width: 434px;
-    height: 64px;
     font-weight: 600;
     font-size: 36px;
     line-height: 43px;
     color: #000000;
 }
 .con_que {
-    position: absolute;
     width: 434px;
-    height: 64px;
-    left: 176px;
-    top: 713px;
     font-weight: normal;
     font-size: 14px;
     line-height: 140%;
     text-align: justify;
     color: #000000;
 }
+.main_container_inputs{
+    width: 540px;
+    height: 305px;;
+}
 input {
     outline: none;
     border: 1px solid #333333;
     box-sizing: border-box;
     border-radius: 6px;
-    position: absolute;
     width: 255px;
     height: 60px;
-    padding-left: 25px;
     font-size: 16px;
     line-height: 19px;
     color: rgba(19, 39, 67, 0.5);
-
-
-}
-.first_name_input {
-    left: 735px;
-    top: 617px;
-
+    padding: 20px 25px;
 }
 .last_name_input {
-    left: 1020px;
-    top: 617px;
+    margin-left: 25px;
 }
 .phone_input {
-    left: 735px;
-    top: 701px;
     width: 540px;
     height: 60px;
+    margin: 20px 0;
 }
 .service_opt{
-    position: absolute;
     width: 540px;
     height: 60px;
-    left: 735px;
-    top: 785px;
     border: 1px solid #333333;
     box-sizing: border-box;
     border-radius: 6px;
@@ -130,17 +140,15 @@ input {
     line-height: 19px;
     color: rgba(19, 39, 67, 0.5);
     padding: 20px 25px;
+    margin-bottom: 20px;
 }
 select {
     appearance: none;
     background: url(img/arrow.png) no-repeat 95% center;
 }
 .submit_btn {
-    position: absolute;
     width: 160px;
     height: 50px;
-    left: 735px;
-    top: 872px;
     background: #ED4C5C;
     border: none;
     border-radius: 6px;
@@ -159,39 +167,33 @@ select {
 }
 .footer {
     background-color: #FAFAFA;;
-    max-width: 100%;
-    height: 435px;
-}
-.footer_headers {
+    width: 100%;
+    height: 450px;
     display: flex;
-    padding-top: 65px;
-    padding-left: 166px;
-    width: 1250px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer_container {
+    width: 65%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footer_head {
     font-weight: bold;
     font-size: 18px;
     line-height: 22px;
-    text-align: center;
     color: #101010;
-}
-.footer_head {
-    padding-right: 219px;
+    padding-bottom: 20px;
 }
 .adress_text {
-    position: absolute;
-    width: 254px;
-    height: 54px;
-    left: 166px;
-    top: 1185px;
-    ont-size: 12px;
+    font-size: 12px;
     line-height: 150%;
     color: #101010;
 }
 .services_menu {
-    position: absolute;
-    width: 254px;
-    height: 114px;
-    left: 442px;
-    top: 1198px;
     font-size: 12px;
     line-height: 160%;
     text-transform: capitalize;
@@ -205,37 +207,18 @@ a {
     text-decoration: none;
 }
 .touch_menu {
-    position: absolute;
-    width: 122px;
-    height: 90px;
-    left: 728px;
-    top: 1190px;
     font-size: 12px;
     line-height: 14px;
     color: #101010;
+
 }
 .in {
     padding-left: 17px;
     padding-right: 17px;
 }
-.touch_images {
-    padding-top: 10px;
-}
-.support {
-    position: absolute;
-    width: 216px;
-    height: 31px;
-    left: 1045px;
-    top: 1185px;
-}
-.tex_down {
-    position: absolute;
-    width: 155px;
-    height: 14px;
-    left: 161px;
-    top: 1380px;
+.text_down {
+    width: 65%;
     font-size: 12px;
     line-height: 14px;
     color: #101010;
-
 }
